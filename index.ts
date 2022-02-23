@@ -29,3 +29,6 @@ SELECT * FROM interviewers WHERE id =?;
 const getInterviewById = db.prepare(`
 SELECT * FROM interviews WHERE id =?;
 `);
+const getInterviewsById = db.prepare(`
+SELECT * FROM interviews WHERE id =?;
+`);
